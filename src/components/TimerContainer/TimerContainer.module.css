@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 32.7rem;
+}
+
+@media (min-width: 43.75em) {
+  .container {
+    width: 68.8rem;
+  }
+}

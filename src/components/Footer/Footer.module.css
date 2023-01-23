@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > a {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 3.2rem;
+}
+
+.container > a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
